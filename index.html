@@ -13,10 +13,13 @@
     />
 
     <title>Frontend Mentor | Article preview component</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -46,13 +49,32 @@
             you make any room feel complete.
           </p>
         </div>
-        <div class="card__footer">
+        <div class="card__footer card__footer--display">
           <img src="./images/avatar-michelle.jpg" alt="profile picture" />
           <div>
             <h2>Michelle Appleton</h2>
             <span> 28 Jun 2020 </span>
           </div>
-          <img src="./images/icon-share.svg" alt="share icon" />
+          <div class="icon__container">
+            <img
+              class="icon--share"
+              src="./images/icon-share.svg"
+              alt="share icon"
+            />
+          </div>
+        </div>
+        <div class="card__footer card__footer--none">
+          <h3>SHARE</h3>
+          <img src="./images/icon-facebook.svg" alt="facebook-icon" />
+          <img src="./images/icon-twitter.svg" alt="twitter-icon" />
+          <img src="./images/icon-pinterest.svg" alt="pinterest-icon" />
+          <div class="icon__container">
+            <img
+              class="icon--share"
+              src="./images/icon-share.svg"
+              alt="share icon"
+            />
+          </div>
         </div>
       </div>
     </div>
