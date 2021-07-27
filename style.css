@@ -175,8 +175,4 @@ body {
   .card__image img {
     border-radius: var(--border-radius) 0 0 var(--border-radius);
   }
-
-  .card__footer {
-    border-radius: 0 0 var(--border-radius) 0;
-  }
 }
