@@ -137,7 +137,7 @@ body {
 
 @media screen and (min-width: 48em) {
   .container {
-    width: min(80%, var(--width-desktop));
+    width: min(60%, var(--width-desktop));
     margin: 2em auto;
     min-height: 100vh;
     display: flex;
@@ -149,6 +149,7 @@ body {
     border-radius: var(--border-radius);
     box-shadow: 0 0 10px var(--clr-primary-700);
     display: flex;
+    background: var(--clr-primary-100);
   }
 
   .card > * {
@@ -158,13 +159,17 @@ body {
   .card__container {
     flex-basis: 60%;
     border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3em 3em;
   }
 
   .card__body {
     background: var(--clr-primary-100);
-    padding: 3em 2em;
     padding-top: 2em;
     margin-top: 0;
+    max-width: 75ch;
   }
 
   .card__image img {
@@ -172,6 +177,6 @@ body {
   }
 
   .card__footer {
-    border-radius: 0;
+    border-radius: 0 0 var(--border-radius) 0;
   }
 }
